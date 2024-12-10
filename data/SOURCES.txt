@@ -1,0 +1,23 @@
+〇 zmi2020s.csv
+ 	- https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200573&tstat=000001150147&cycle=0&tclass1=000001150151&tclass2=000001150152&tclass3=000001150153&tclass4=000001150156&tclass5val=0
+
+〇 JGB_RATE_10Y.csv
+	- https://www.investing.com/rates-bonds/japan-10-year-bond-yield-historical-data
+
+〇 TOPIX.csv
+	- https://www.investing.com/indices/topix-historical-data
+
+〇 USD_JPY.csv
+	- https://www.investing.com/currencies/usd-jpy-historical-data
+
+〇 UNEMPLOYMENT_RATE.xlsx
+	- https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200531&tstat=000000110001&cycle=0&tclass1=000001040276&tclass2=000001011681&tclass3val=0
+
+〇 INCOME.xls
+	- https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144287&tclass3val=0 (Only Japanese)
+
+〇 CONSUMER_ACTIVITY_INDEX.xlsx
+	- https://www.boj.or.jp/en/research/research_data/cai/index.htm
+
+〇 IIP_PAST.xlsxおよびIIP_LAST.xlsx
+	- https://www.meti.go.jp/english/statistics/tyo/iip/b2020_result-2.html
