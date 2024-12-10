@@ -1,0 +1,54 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+
+\begin{document}
+
+\section*{Forecast Comparison Results}
+
+\begin{table}
+\caption{Forecast Comparison for Other Series}
+\label{tab:forecast_comparison_other}
+\begin{tabular}{llp{10cm}}
+\toprule
+Series & Details & Metrics \\
+\midrule
+Nominal Consumption Activity Index & Model 1 & MAE=0.817, MSE=1.061, RMSE=1.030 \\
+ & Model 2 & MAE=1.387, MSE=3.655, RMSE=1.912 \\
+ & t-test & t-stat=-2.464, p-value=0.018 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Nominal Consumption Activity Index (travel balance adjusted) & Model 1 & MAE=0.871, MSE=1.170, RMSE=1.081 \\
+ & Model 2 & MAE=1.372, MSE=3.598, RMSE=1.897 \\
+ & t-test & t-stat=-2.332, p-value=0.024 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Consumption Activity Index & Model 1 & MAE=0.995, MSE=1.509, RMSE=1.229 \\
+ & Model 2 & MAE=1.818, MSE=6.338, RMSE=2.518 \\
+ & t-test & t-stat=-2.285, p-value=0.027 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Consumption Activity Index (travel balance adjusted) & Model 1 & MAE=0.951, MSE=1.390, RMSE=1.179 \\
+ & Model 2 & MAE=1.638, MSE=5.177, RMSE=2.275 \\
+ & t-test & t-stat=-2.165, p-value=0.036 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Consumption Activity Index Plus & Model 1 & MAE=1.052, MSE=1.678, RMSE=1.295 \\
+ & Model 2 & MAE=1.956, MSE=7.484, RMSE=2.736 \\
+ & t-test & t-stat=-2.295, p-value=0.027 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Durable Goods Index & Model 1 & MAE=2.145, MSE=6.941, RMSE=2.635 \\
+ & Model 2 & MAE=2.027, MSE=7.483, RMSE=2.736 \\
+ & t-test & t-stat=0.133, p-value=0.895 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Non-Durable Goods Index & Model 1 & MAE=1.302, MSE=2.431, RMSE=1.559 \\
+ & Model 2 & MAE=2.126, MSE=8.111, RMSE=2.848 \\
+ & t-test & t-stat=-3.985, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Real Services Index & Model 1 & MAE=0.776, MSE=0.946, RMSE=0.973 \\
+ & Model 2 & MAE=0.980, MSE=1.931, RMSE=1.390 \\
+ & t-test & t-stat=-1.401, p-value=0.168 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}

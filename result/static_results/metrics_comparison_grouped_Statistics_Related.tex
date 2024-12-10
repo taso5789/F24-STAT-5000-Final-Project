@@ -1,0 +1,43 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{lscape}
+
+\begin{document}
+
+\section*{Comparison of Metrics with and without Google Trends}
+
+\begin{table}
+\caption{Statistics Related}
+\label{tab:metrics_comparison_Statistics_Related}
+\begin{tabular}{llcc}
+\toprule
+Series & Metric & With Google Trends & Without Google Trends \\
+\midrule
+Real Index & MAE & 1.833 & N/A \\
+ & MSE & 5.040 & N/A \\
+ & RMSE & 2.245 & N/A \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Seasonally Adjusted Values & MAE & 3.718 & N/A \\
+ & MSE & 26.048 & N/A \\
+ & RMSE & 5.104 & N/A \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Statistical Data & MAE & 2.137 & N/A \\
+ & MSE & 6.447 & N/A \\
+ & RMSE & 2.539 & N/A \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Statistics Bureau of Japan & MAE & 1.442 & N/A \\
+ & MSE & 3.086 & N/A \\
+ & RMSE & 1.757 & N/A \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Time Series Analysis & MAE & 1.795 & N/A \\
+ & MSE & 4.481 & N/A \\
+ & RMSE & 2.117 & N/A \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}

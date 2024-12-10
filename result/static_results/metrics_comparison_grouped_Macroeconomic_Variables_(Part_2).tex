@@ -1,0 +1,59 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{lscape}
+
+\begin{document}
+
+\section*{Comparison of Metrics with and without Google Trends}
+
+\begin{table}
+\caption{Macroeconomic Variables (Part 2)}
+\label{tab:metrics_comparison_Macroeconomic_Variables_(Part_2)}
+\begin{tabular}{llcc}
+\toprule
+Series & Metric & With Google Trends & Without Google Trends \\
+\midrule
+10Y JGB Rate & MAE & 0.752 & 0.801 \\
+ & MSE & 0.924 & 0.879 \\
+ & RMSE & 0.961 & 0.938 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Nominal Consumption Activity Index & MAE & 0.817 & 1.387 \\
+ & MSE & 1.061 & 3.655 \\
+ & RMSE & 1.030 & 1.912 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Nominal Consumption Activity Index (travel balance adjusted) & MAE & 0.871 & 1.372 \\
+ & MSE & 1.170 & 3.598 \\
+ & RMSE & 1.081 & 1.897 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Consumption Activity Index & MAE & 0.995 & 1.818 \\
+ & MSE & 1.509 & 6.338 \\
+ & RMSE & 1.229 & 2.518 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Consumption Activity Index (travel balance adjusted) & MAE & 0.951 & 1.638 \\
+ & MSE & 1.390 & 5.177 \\
+ & RMSE & 1.179 & 2.275 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Consumption Activity Index Plus & MAE & 1.052 & 1.956 \\
+ & MSE & 1.678 & 7.484 \\
+ & RMSE & 1.295 & 2.736 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Durable Goods Index & MAE & 2.145 & 2.027 \\
+ & MSE & 6.941 & 7.483 \\
+ & RMSE & 2.635 & 2.736 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Non-Durable Goods Index & MAE & 1.302 & 2.126 \\
+ & MSE & 2.431 & 8.111 \\
+ & RMSE & 1.559 & 2.848 \\
+\arrayrulecolor{black!30}\midrule &  &  &  \\
+Real Services Index & MAE & 0.776 & 0.980 \\
+ & MSE & 0.946 & 1.931 \\
+ & RMSE & 0.973 & 1.390 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}

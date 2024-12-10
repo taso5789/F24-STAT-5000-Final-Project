@@ -1,0 +1,58 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+
+\begin{document}
+
+\section*{Forecast Comparison Results}
+
+\begin{table}
+\caption{Forecast Comparison for Specified Series}
+\label{tab:forecast_comparison_specified}
+\begin{tabular}{llp{10cm}}
+\toprule
+Series & Details & Metrics \\
+\midrule
+CPI & Model 1 & MAE=0.289, MSE=0.139, RMSE=0.373 \\
+ & Model 2 & MAE=0.540, MSE=0.424, RMSE=0.651 \\
+ & t-test & t-stat=-8.429, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Core CPI & Model 1 & MAE=0.270, MSE=0.110, RMSE=0.331 \\
+ & Model 2 & MAE=0.411, MSE=0.208, RMSE=0.456 \\
+ & t-test & t-stat=-7.438, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Core Core CPI & Model 1 & MAE=0.431, MSE=0.269, RMSE=0.519 \\
+ & Model 2 & MAE=0.467, MSE=0.282, RMSE=0.531 \\
+ & t-test & t-stat=-7.243, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+10Y JGB Rate & Model 1 & MAE=0.752, MSE=0.924, RMSE=0.961 \\
+ & Model 2 & MAE=0.801, MSE=0.879, RMSE=0.938 \\
+ & t-test & t-stat=1.846, p-value=0.072 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+TOPIX & Model 1 & MAE=0.440, MSE=0.299, RMSE=0.547 \\
+ & Model 2 & MAE=0.762, MSE=1.047, RMSE=1.023 \\
+ & t-test & t-stat=-2.564, p-value=0.014 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+USD/JPY & Model 1 & MAE=0.576, MSE=0.577, RMSE=0.760 \\
+ & Model 2 & MAE=1.166, MSE=2.674, RMSE=1.635 \\
+ & t-test & t-stat=-4.563, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Income & Model 1 & MAE=0.752, MSE=0.807, RMSE=0.898 \\
+ & Model 2 & MAE=1.184, MSE=2.502, RMSE=1.582 \\
+ & t-test & t-stat=-4.531, p-value=0.000 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Indices of Industrial Production & Model 1 & MAE=0.705, MSE=0.730, RMSE=0.854 \\
+ & Model 2 & MAE=2.499, MSE=12.867, RMSE=3.587 \\
+ & t-test & t-stat=-3.573, p-value=0.001 \\
+\arrayrulecolor{black!30}\midrule &  &  \\
+Unemployment Rate & Model 1 & MAE=0.695, MSE=0.647, RMSE=0.804 \\
+ & Model 2 & MAE=0.922, MSE=1.736, RMSE=1.318 \\
+ & t-test & t-stat=-8.208, p-value=0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}
